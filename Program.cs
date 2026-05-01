@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp2
+namespace WindowsFormsApp3
 {
     internal static class Program
     {
@@ -13,11 +13,10 @@ namespace WindowsFormsApp2
         /// </summary>
         [STAThread]
         static void Main()
-        
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmTrangchu());
+            Application.Run(new frmdondoi());
         }
     }
 }
